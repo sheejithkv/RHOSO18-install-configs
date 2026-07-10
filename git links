@@ -19,3 +19,5 @@ https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift
 A more current tool for spinning up disposable RHOSO dev/test labs (including a scripted OCP install) if you want to automate the whole thing rather than click through a UI demo.
 
 https://github.com/openstack-k8s-operators/hotstack
+
+https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0/html/deploying_red_hat_openstack_services_on_openshift/assembly_installing-and-preparing-the-openstack-operator
