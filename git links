@@ -1,0 +1,21 @@
+1. RedHatQuickCourses – RHOSP18/RHOSO deploy course (best match, free, hands-on)
+This is Red Hat's official quick-course lab for deploying RHOSO on an OpenShift cluster, including provisioning a data plane node — the same flow shown in most RHOSO install demo videos.
+
+Course: https://redhatquickcourses.github.io/rhoso-deploy/
+Repo: https://github.com/RedHatQuickCourses/rhoso-deploy
+
+2. rh-osp-demo/dp-demo (the original Dev Preview demo repo)
+This is the exact demo repo Red Hat used in their RHOSO Dev Preview walkthroughs (bastion host + 3-node OCP cluster + single dataplane host). It's the likely basis for the video you watched.
+
+https://github.com/rh-osp-demo/dp-demo
+Instructions: https://github.com/rh-osp-demo/dp-demo/blob/main/demo/index.md
+(Note: some files in this repo are marked deprecated since RHOSO has since GA'd at 18.0, but the steps are still a faithful walkthrough of the install flow.)
+
+3. Official RHOSO 18.0 GA documentation (what you'd use for a real/production-style install)
+
+https://docs.redhat.com/en/documentation/red_hat_openstack_services_on_openshift/18.0/html/deploying_red_hat_openstack_services_on_openshift/index
+
+4. openstack-k8s-operators/hotstack
+A more current tool for spinning up disposable RHOSO dev/test labs (including a scripted OCP install) if you want to automate the whole thing rather than click through a UI demo.
+
+https://github.com/openstack-k8s-operators/hotstack
