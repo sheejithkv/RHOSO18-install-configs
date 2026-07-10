@@ -1,0 +1,1 @@
+# RHOSO18-install-configs
